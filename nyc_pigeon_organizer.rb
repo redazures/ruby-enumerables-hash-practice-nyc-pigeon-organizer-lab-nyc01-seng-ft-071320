@@ -49,7 +49,7 @@ def nyc_pigeon_organizer(data)
   #    hash_starting_names[name]={first_layer=>placeholder}
   #  end
   #This is the output area
-  p hash_starting_names
+  hash_starting_names
 end
 
 x =nyc_pigeon_organizer(pigeon_data)
