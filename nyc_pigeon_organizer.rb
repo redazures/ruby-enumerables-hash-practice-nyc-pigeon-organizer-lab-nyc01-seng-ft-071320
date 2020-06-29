@@ -53,3 +53,4 @@ def nyc_pigeon_organizer(data)
 end
 
 x =nyc_pigeon_organizer(pigeon_data)
+p x
