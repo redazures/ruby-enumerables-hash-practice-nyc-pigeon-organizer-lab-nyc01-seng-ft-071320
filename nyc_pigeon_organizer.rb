@@ -38,7 +38,7 @@ def nyc_pigeon_organizer(data)
           hash_starting_names[nom]={first_layer=>[second_layer]} if hash_starting_names[nom]==nil
           # puts first_layer
           hash_starting_names[nom][first_layer]=[second_layer] if hash_starting_names[nom][first_layer]==nil
-          p hash_starting_names[nom][first_layer].include?second_layer
+          hash_starting_names[nom][first_layer].include?second_layer if !hash_starting_names[nom][first_layer].include?second_layer
           #Here we create the pigeon and the color
           #color, gender, and lives are the items of the first layer
         end
