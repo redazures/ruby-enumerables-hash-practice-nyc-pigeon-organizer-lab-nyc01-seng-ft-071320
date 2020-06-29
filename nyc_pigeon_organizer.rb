@@ -30,7 +30,7 @@ def nyc_pigeon_organizer(data)
     # puts "This is the values #{v}"
     v.each do |ko,names|
       puts ko
-      second_layer=
+      second_layer=ko
       # puts "This is 2nd layer #{names}"
         names.each do |nom|
           #nom is names of the pigeons. Here I use nom to create the pigeon
