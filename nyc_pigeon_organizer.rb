@@ -29,7 +29,7 @@ def nyc_pigeon_organizer(data)
     # puts first_layer
     # puts "This is the values #{v}"
     v.each do |ko,names|
-      puts ko
+      # puts ko
       second_layer=ko
       # puts "This is 2nd layer #{names}"
         names.each do |nom|
